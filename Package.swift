@@ -1,4 +1,6 @@
-swift-tools-version: 5.5
+//swift-tools-version: 5.5
+import PackageDescription
+
 let package = Package(
     name: "Playground4Test",
     platforms: [.iOS(.v14), .macOS(.v10_14), .tvOS(.v12), .watchOS(.v5)],
